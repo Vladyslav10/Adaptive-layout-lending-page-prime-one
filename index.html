@@ -23,7 +23,7 @@
               </li>
             </ul>
             <div class="header__ordering">
-              <a href="#" class="header__ordering-link">Online ordering</a>
+              <a href="#ordering" class="header__ordering-link popup-link">Online ordering</a>
             </div>
           </div>
           <div class="header__bottom">
@@ -385,6 +385,38 @@
             </div>
           </div>
         </div>
+        <div id="ordering" class="popup">
+          <div class="popup__body">
+            <div class="popup__content">
+              <a href="#" class="popup__close close-popup">X</a>
+              <div class="popup__title">Online ordering</div>
+              <div class="popup__row">
+                <p class="popup__service-name">Wedding catering</p>
+                <button type="button" class="popup__btn-buy">
+                  <a href="#order" class="popup-link">Order</a> 
+                </button>
+              </div>
+              <div class="popup__row">
+                <p class="popup__service-name">Corporate catering</p>
+                <button type="button" class="popup__btn-buy">
+                  <a href="#order" class="popup-link">Order</a>
+                </button>
+              </div>
+              <div class="popup__row">
+                <p class="popup__service-name">Online catering</p>
+                <button type="button" class="popup__btn-buy">
+                  <a href="#order" class="popup-link">Order</a>
+                </button>
+              </div>
+              <div class="popup__row">
+                <p class="popup__service-name">Private catering</p>
+                <button type="button" class="popup__btn-buy">
+                  <a href="#order" class="popup-link">Order</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="online" class="popup">
           <div class="popup__body">
             <div class="popup__content">
@@ -394,6 +426,14 @@
               <p class="popup__wedding-products">Products: 1000$</p>
               <p class="popup__wedding-service">Service: 300$</p>
               <p class="popup__wedding-total">Total: 1300$</p>
+            </div>
+          </div>
+        </div>
+        <div id="order" class="popup">
+          <div class="popup__body">
+            <div class="popup__content">
+              <a href="#" class="popup__close close-popup">X</a>
+              <p class="popup__status">Thank's your application has been sent, wait for response</p>
             </div>
           </div>
         </div>

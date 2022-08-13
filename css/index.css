@@ -180,8 +180,45 @@ body.lock {
 .popup__title {
 	font-size: 36px;
 	font-weight: 600;
-	margin: 0px 0px 20  px 0px;
+	margin: 0px 0px 20px 0px;
 	text-align: center;
+}
+
+.popup__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup__row:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+
+.popup__service-name {
+    font-size: 18px;
+}
+
+.popup__btn-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.popup__btn-buy > *{
+    color: inherit;
+}
+
+.popup__btn-buy:hover {
+    background-color: rgb(90, 89, 89);
+}
+
+.popup__status {
+    font-size: 19px;
 }
 
 /*-----------------------------footer------------------------------------------*/
